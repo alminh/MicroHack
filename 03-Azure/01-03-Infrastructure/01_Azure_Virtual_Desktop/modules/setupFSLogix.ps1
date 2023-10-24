@@ -29,8 +29,8 @@ Set-ItemProperty `
     -Value "1"
 New-ItemProperty `
     -Path HKLM:\Software\FSLogix\Profiles `
-    -Name "CCDLocations" `
-    -Value "type=smb,connectionString=$ProfilePath" `
+    -Name "VHDLocations" `
+    -Value "$ProfilePath" `
     -PropertyType MultiString `
     -Force
 Set-ItemProperty `
@@ -70,6 +70,14 @@ Set-ItemProperty `
     -Value 1
 Pop-Location
 
+Push-Location 
+Set-Location HKLM:\SYSTEM\
+Set-ItemProperty `
+    -Path HKLM:\SYSTEM\CurrentControlSet\Control\Lsa\Kerberos\Parameters `
+    -Name CloudKerberosTicketRetrievalEnabled `
+    -Type DWord `
+    -Value 1
+Pop-Location
 
 #############
 #    END    #

@@ -1,3 +1,5 @@
+![image](Images/MicroHack_Logo_1.png)
+
 # Azure Virtual Desktop - Micro Hack
 
 ## Introduction
@@ -13,44 +15,39 @@ This hack covers all essential artifacts of AVD and starts off by covering the b
 
 ## Learning Objectives
 
-In this hack you will learn how to set up a Azure Virtual Desktop in a typical scenario and build it out in your own environment. Once your AVD environment is built you will learn how to scale. monitor and manage the environment with other Azure resources. 
+In this hack, you will learn how to set up an Azure Virtual Desktop in a typical scenario and build it in the MicroHack environment. Once your AVD environment is built, you will learn how to scale, monitor, and manage the environment with other Azure resources.
+
+## Requirements
+
+- Basic Azure knowledge [(Azure fundamentals)](https://learn.microsoft.com/en-us/training/paths/azure-fundamentals-describe-azure-architecture-services/)
+- Microsoft Teams Desktop Sharing should be allowed to collaborate with other participants.
 
 ## Content and Challenges
 
 - Challenge 0: **[Getting started](Challenges/00-Pre-Reqs.md)**
-- Challenge 1: **[Deploy a personal session host](Challenges/01-Personal-Hostpools.md)**
-- Challenge 2: **[Deploy multi-session hostpool](Challenges/02-multi-session-Hostpools.md)**
-- Challenge 3: **[Implement FSLogix Profile solution](Challenges/03-Implement-FSLogix-Profile.md)**
-- Challenge 4: **[Start VM on connect](04-start-VM-on-connect.md)**
-- Challenge 5: **[Scaling plan](05-scaling-plan.md)**
-- Challenge 6: **[Configure RDP Properties](Challenges/06-RDP-properties.md)**
-- Challenge 7 (optional): Monitoring (Log Analytics workspace required)
-- Challenge 8 (optional): disaster recovery & backup for AVD (failover / replicate in other region) 
-- Challenge 9 (optional): **[conditional access (MFA required)](Challenges/09-Configure-MFA)**
-
-
-## Prerequisites
-
-- Azure Subscription
-- Visual Studio Code (https://code.visualstudio.com/)
-- Visual Studio Biceps Extension installed
-- Azure CLI 
-- [M365 License](https://docs.microsoft.com/en-us/azure/virtual-desktop/overview#requirements)
+- Challenge 1: **[Create a host pool for personal desktops](Challenges/01-Personal-Hostpools.md)**
+- Challenge 2: **[Create a custom golden image](Challenges/02-Create-a-custom-golden-image.md)**
+- Challenge 3: **[Implement Start VM on Connect Feature](Challenges/03-start-VM-on-connect.md)**
+- Challenge 4: **[Create a host pool for multi-session desktops](Challenges/04-multi-session-Hostpools.md)**
+- Challenge 5: **[Create FSLogix Profile Solution](Challenges/05-Implement-FSLogix-Profile-Solution.md)**
+- Challenge 6: **[Set up a scaling plan](Challenges/06-scaling-plan.md)**
+- Challenge 7: **[Customize RDP Properties](Challenges/07-RDP-properties.md)**
+- Challenge 8 (optional): **[Configure MFA](Challenges/08-Configure-MFA.md)**
 
 ## Solution Guide
 
-- Challenge 1: **[Deploy a personal session host](Solutionguide/01-Personal-Hostpools-solution.md)**
-- Challenge 2: **[Deploy multi-session hostpool](Solutionguide/02-multi-session-Hostpools-solution.md)**
-- Challenge 3: **[Implement FSLogix Profile Solution](Solutionguide/03-Implement-FSLogix-Profile-Solution.md)**
-- Challenge 4: **[Implement „start VM on connect“ (single-session)](Solutionguide/04-start-VM-on-connect-solution.md)**
-- Challenge 5: **[Setup scaling-plan (multi-session)](Solutionguide/05-scaling-plan-solution.md)**
-- Challenge 6: **[Configure RDP Properties](Solutionguide/06-RDP-properties-solution.md)**
-- Challenge 7 (optional): Monitoring (Log Analytics workspace required)
-- Challenge 8 (optional): disaster recovery & backup for AVD (failover / replicate in other region) 
-- Challenge 9: **(optional): [conditional access (MFA required)](Solutionguide/09-Configure-MFA)**
+- Challenge 1: **[Create a host pool for personal desktops](Solutionguide/01-Personal-Hostpools-solution.md)**
+- Challenge 2: **[Create a custom golden image](Solutionguide/02-Create-a-custom-golden-image.md)**
+- Challenge 3: **[Implement Start VM on Connect Feature](Solutionguide/03-start-VM-on-connect-solution.md)**
+- Challenge 4: **[Create a host pool for multi-session desktops](Solutionguide/04-multi-session-Hostpools-solution.md)**
+- Challenge 5: **[Create FSLogix Profile Solution](Solutionguide/05-Implement-FSLogix-Profile-Solution.md)**
+- Challenge 6: **[Set up a scaling plan](Solutionguide/06-scaling-plan-solution.md)**
+- Challenge 7: **[Customize RDP Properties](Solutionguide/07-RDP-properties-solution.md)**
+- Challenge 8: **(optional): [Configure MFA](Solutionguide/08-Configure-MFA.md)**
 
 ## Contributor
-- Ben Martin Baur
-- Angelika Gerl
+- [Ben Martin Baur](https://www.linkedin.com/in/ben-martin-baur/)
+- [Angelika Gerl](https://www.linkedin.com/in/angelika-gerl/)
 - Leonie Mueller
 - Steffen Krause
+- [Daniel Weppeler](https://www.linkedin.com/in/daniel-weppeler/)
